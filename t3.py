@@ -101,19 +101,6 @@ class ReflexCaptureAgent(CaptureAgent):
         # Explorar y expandir: usar A* para encontrar la mejor acción
         return self.a_star_search(game_state, current_position, closest_food)
         '''
-        ###################
-        '''actions = game_state.get_legal_actions(self.index)
-        actions.remove(Directions.STOP)
-
-        values = []
-        for a in actions:
-            value = self.MONTE_CARLO(game_state, a, 0.5, 19, 1)
-            values.append(value)
-
-        values = [self.evaluate(game_state, a) for a in actions]
-        bestActions = [a for a, v in zip(actions, values) if v == max(values)]
-
-        return random.choice(bestActions)'''
         actions = game_state.get_legal_actions(self.index)
         values = [self.evaluate(game_state, a) for a in actions]
         max_value = max(values)
