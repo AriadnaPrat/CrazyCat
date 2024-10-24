@@ -6,14 +6,6 @@ The **Pacman Contest** project is a Python-based competition framework designed 
 
 This project uses **Python 3.8** and provides a game engine, environment, and necessary utilities to create and test intelligent agents.
 
-## Features
-
-- **Custom Agents**: Implement your own AI for controlling Pacman and Ghosts.
-- **Pre-built Game Engine**: A game environment with grid-based movement, basic Pacman mechanics, and collision detection.
-- **Scoring System**: Tracks scores based on the performance of agents.
-- **Replay Functionality**: Allows users to record and replay matches for analysis.
-- **Simple to Extend**: Easily add new features or modify existing ones to adapt the project to your own contests.
-
 ## Prerequisites
 
 To run the project, you'll need:
