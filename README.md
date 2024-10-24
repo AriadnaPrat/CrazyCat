@@ -29,7 +29,7 @@ To run the project, you'll need:
    git clone https://github.com/yourusername/pacman-contest.git
    cd pacman-contest
    
-   '''
+   
 2. **Install the Required Dependencies:**
 
    To ensure compatibility, create a virtual environment and install the required packages:
@@ -38,5 +38,7 @@ To run the project, you'll need:
    python3.8 -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    pip install -r requirements.txt
-   '''
    
+3. **Running the Game:**
+
+To start the game, run the following command:
